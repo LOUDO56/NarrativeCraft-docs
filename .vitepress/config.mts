@@ -6,11 +6,10 @@ export default defineConfig({
   description: "Documentation for the minecraft mod NarrativeCraft",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
-
+    nav: [{ text: "Home", link: "/" }],
+    search: {
+      provider: "local",
+    },
     sidebar: [
       {
         text: "Getting started",

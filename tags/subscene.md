@@ -10,15 +10,16 @@ Start or stop a subscene on the current scene. These actions target subscenes th
 - **loop=true/false** *optional*: Whether the subscene should loop.
 - **block** *optional*: If present, the story will wait until the subscene completes.
 
+::: info
+Using the `block` keyword makes this a blocking command. It delays further script execution until the subscene ends.
+:::
+
+
 ## Stop Subscene
 
 `subscene stop %subscene_name%`
 
 - Stops the specified subscene.
-
-::: info
-Using the `block` keyword makes this a blocking command. It delays further script execution until the animation or subscene ends.
-:::
 
 ## Example
 

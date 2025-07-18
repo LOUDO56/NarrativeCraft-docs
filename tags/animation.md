@@ -10,15 +10,16 @@ Start or stop an animation on the current scene. These actions target animations
 - **loop=true/false** *optional*: Whether the animation should loop.
 - **block** *optional*: If provided, the story will wait until the animation finishes before continuing.
 
+::: info
+Using the `block` keyword makes this a blocking command. It delays further script execution until the animation ends.
+:::
+
+
 ## Stop Animation
 
 `animation stop %animation_name%`
 
 - Stops the specified animation.
-
-::: info
-Using the `block` keyword makes this a blocking command. It delays further script execution until the animation or subscene ends.
-:::
 
 ## Example
 
