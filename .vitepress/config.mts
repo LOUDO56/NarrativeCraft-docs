@@ -22,8 +22,8 @@ export default defineConfig({
           },
           { text: "Prerequisites", link: "/getting-started/prerequisites" },
           {
-            text: "Initializating a story",
-            link: "/getting-started/initializating-your-first-story",
+            text: "Initializing a story",
+            link: "/getting-started/initializing-your-first-story",
           },
           {
             text: "Managing the story",
