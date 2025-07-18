@@ -56,6 +56,83 @@ export default defineConfig({
         ],
       },
       {
+        text: "Tags",
+        items: [
+          {
+            text: "Dialog",
+            link: "/tags/dialog",
+          },
+          {
+            text: "Animation",
+            link: "/tags/animation",
+          },
+          {
+            text: "Border",
+            link: "/tags/border",
+          },
+          {
+            text: "Camera angle",
+            link: "/tags/camera-angle",
+          },
+          {
+            text: "Change day time",
+            link: "/tags/change-day-time",
+          },
+          {
+            text: "Cutscene",
+            link: "/tags/cutscene",
+          },
+          {
+            text: "Cooldown",
+            link: "/tags/cooldown",
+          },
+          {
+            text: "Dialog parameters",
+            link: "/tags/dialog-parameters",
+          },
+          {
+            text: "Minecraft command",
+            link: "/tags/minecraft-command",
+          },
+          {
+            text: "Emote",
+            link: "/tags/emote",
+          },
+          {
+            text: "Fade",
+            link: "/tags/fade",
+          },
+          {
+            text: "Kill character",
+            link: "/tags/kill-character",
+          },
+          {
+            text: "On Enter",
+            link: "/tags/on-enter",
+          },
+          {
+            text: "Save",
+            link: "/tags/save",
+          },
+          {
+            text: "Shake",
+            link: "/tags/shake",
+          },
+          {
+            text: "Song/Sfx",
+            link: "/tags/song-sfx",
+          },
+          {
+            text: "Subscene",
+            link: "/tags/Subscene",
+          },
+          {
+            text: "Weather change",
+            link: "/tags/weather-change",
+          },
+        ],
+      },
+      {
         text: "Customizations",
         items: [
           {
