@@ -20,7 +20,7 @@ Click on the camera angle scene to open the Camera Angle Controller. The followi
 
 ## Create a Camera Angle
 
-A camera angle requires a name to identify it when calling it from your Ink script using [tags]().
+A camera angle requires a name to identify it when calling it from your Ink script using tags.
 
 To enter and edit the camera angle, refer to [this section](/creating-in-game/cutscene.html#entering-a-keyframe).
 

@@ -125,7 +125,7 @@ export default defineConfig({
           },
           {
             text: "Subscene",
-            link: "/tags/Subscene",
+            link: "/tags/subscene",
           },
           {
             text: "Weather change",

@@ -103,7 +103,7 @@ Creating a new group automatically defines a transition between the previous and
 
 ## Keyframe Trigger
 
-A keyframe trigger is a special keyframe that lets you inject Ink [tags]() directly into your cutscene.
+A keyframe trigger is a special keyframe that lets you inject Ink tags directly into your cutscene.
 
 <div style="display: flex; gap:10px; align-items: center;">
   <p>
