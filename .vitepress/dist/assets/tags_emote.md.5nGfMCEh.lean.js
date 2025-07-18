@@ -1,1 +1,0 @@
-import{_ as t,c as a,o,ag as r}from"./chunks/framework.Bw-5EFTY.js";const h=JSON.parse('{"title":"Emote","description":"","frontmatter":{},"headers":[],"relativePath":"tags/emote.md","filePath":"tags/emote.md"}'),i={name:"tags/emote.md"};function l(n,e,c,m,s,d){return o(),a("div",null,e[0]||(e[0]=[r("",9)]))}const u=t(i,[["render",l]]);export{h as __pageData,u as default};
