@@ -1,4 +1,4 @@
-# Create a Cutscene
+# Cutscene
 
 Whether it's after a choice, to introduce a scene, or for other reasons, you may want to create a cutscene. Here's everything you need to know.
 
@@ -14,13 +14,13 @@ You can link a single animation by shift-clicking the gear icon.
 
 Click on the cutscene to enter the Cutscene Controller. A set of buttons will appear:
 
-![Cutscene controller buttons image](/assets/creating-in-game/create-a-cutscene/cutscene-controller-buttons.png)
+![Cutscene controller buttons image](/assets/creating-in-game/cutscene/cutscene-controller-buttons.png)
 
 ### First Section
 
 1. Create a keyframe group
 2. Add a keyframe to the currently selected group
-3. Add a [keyframe trigger](/creating-in-game/create-a-cutscene#keyframe-trigger)
+3. Add a [keyframe trigger](/creating-in-game/cutscene#keyframe-trigger)
 
 ### Second Section
 
@@ -30,7 +30,7 @@ Click on the cutscene to enter the Cutscene Controller. A set of buttons will ap
 
 ### Third Section
 
-1. [Cutscene settings](/creating-in-game/create-a-cutscene#cutscene-settings)
+1. [Cutscene settings](/creating-in-game/cutscene#cutscene-settings)
 2. Close and save
 3. Close without saving
 
@@ -43,7 +43,7 @@ To reopen the screen later, press `G` (default key).
 To enter a keyframe, right-click on it (make sure you're not in spectator mode).  
 You will see the following interface:
 
-![Keyframe screen option image](/assets/creating-in-game/create-a-cutscene/keyframe-screen.png)
+![Keyframe screen option image](/assets/creating-in-game/cutscene/keyframe-screen.png)
 
 ### Top Left
 
@@ -60,22 +60,22 @@ You will see the following interface:
 <div style="display: flex; flex-direction: column;">
   <div style="display: flex; align-items: center; gap: 0.5rem;">
     <p>•</p>
-    <img src="/assets/creating-in-game/create-a-cutscene/eye.png" alt="eye" style="width: 30px; height: auto;" />
+    <img src="/assets/creating-in-game/cutscene/eye.png" alt="eye" style="width: 30px; height: auto;" />
     <span>Hide screen</span>
   </div>
   <div style="display: flex; align-items: center; gap: 0.5rem;">
     <p>•</p>
-    <img src="/assets/creating-in-game/create-a-cutscene/left-arrow.png" alt="eye" style="width: 30px; height: auto;" />
+    <img src="/assets/creating-in-game/cutscene/left-arrow.png" alt="eye" style="width: 30px; height: auto;" />
     <span>Previous keyframe</span>
   </div>
   <div style="display: flex; align-items: center; gap: 0.5rem;">
     <p>•</p>
-    <img src="/assets/creating-in-game/create-a-cutscene/right-arrow.png" alt="eye" style="width: 30px; height: auto;" />
+    <img src="/assets/creating-in-game/cutscene/right-arrow.png" alt="eye" style="width: 30px; height: auto;" />
     <span>Next keyframe</span>
   </div>
   <div style="display: flex; align-items: center; gap: 0.5rem;">
     <p>•</p>
-    <img src="/assets/creating-in-game/create-a-cutscene/close.png" alt="eye" style="width: 30px; height: auto;" />
+    <img src="/assets/creating-in-game/cutscene/close.png" alt="eye" style="width: 30px; height: auto;" />
     <span>Close</span>
   </div>
 </div>
@@ -91,7 +91,7 @@ Then, navigate through the cutscene and add keyframes to this group.
 
 It will look like this:
 
-![Keyframe screen option image](/assets/creating-in-game/create-a-cutscene/one-keyframe-group.png)
+![Keyframe screen option image](/assets/creating-in-game/cutscene/one-keyframe-group.png)
 
 ## Transitions
 
@@ -99,7 +99,7 @@ You might not always want a single path. To create camera transitions, you can m
 
 Creating a new group automatically defines a transition between the previous and new group:
 
-![Keyframe screen option image](/assets/creating-in-game/create-a-cutscene/multiple-keyframe-group.png)
+![Keyframe screen option image](/assets/creating-in-game/cutscene/multiple-keyframe-group.png)
 
 ## Keyframe Trigger
 
@@ -109,13 +109,13 @@ A keyframe trigger is a special keyframe that lets you inject Ink [tags]() direc
   <p>
     To add one, click:
   </p>
-  <span><img src="/assets/creating-in-game/create-a-cutscene/keyframe-trigger.png" width="40px" /></span>
+  <span><img src="/assets/creating-in-game/cutscene/keyframe-trigger.png" width="40px" /></span>
   <p>button</p>
 </div>
 
 You'll see this screen:
 
-![Keyframe trigger screen image](/assets/creating-in-game/create-a-cutscene/keyframe-trigger-screen.png)
+![Keyframe trigger screen image](/assets/creating-in-game/cutscene/keyframe-trigger-screen.png)
 
 To add multiple tags, separate them by lines.
 

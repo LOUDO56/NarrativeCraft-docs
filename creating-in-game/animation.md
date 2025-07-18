@@ -1,4 +1,4 @@
-# Create an Animation
+# Animation
 
 An animation in NarrativeCraft is a recording of your in-game movements and actions, assigned to a specific character.  
 Each animation is uniquely linked to one character.

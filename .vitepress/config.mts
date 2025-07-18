@@ -28,18 +28,47 @@ export default defineConfig({
             text: "Managing the story",
             link: "/getting-started/managing-the-story",
           },
+          {
+            text: "Creating characters",
+            link: "/getting-started/creating-characters",
+          },
         ],
       },
       {
         text: "Creating in-game",
         items: [
           {
-            text: "Create an animation",
-            link: "/creating-in-game/create-an-animation",
+            text: "Animation",
+            link: "/creating-in-game/animation",
           },
           {
-            text: "Create a cutscene",
-            link: "/creating-in-game/create-a-cutscene",
+            text: "Cutscene",
+            link: "/creating-in-game/cutscene",
+          },
+          {
+            text: "Camera angle",
+            link: "/creating-in-game/camera-angle",
+          },
+          {
+            text: "NPC",
+            link: "/creating-in-game/npc",
+          },
+        ],
+      },
+      {
+        text: "Customizations",
+        items: [
+          {
+            text: "Dialog",
+            link: "/customizations/dialog",
+          },
+          {
+            text: "Main Menu",
+            link: "/customizations/main-menu",
+          },
+          {
+            text: "Sounds",
+            link: "/customizations/sounds",
           },
         ],
       },
