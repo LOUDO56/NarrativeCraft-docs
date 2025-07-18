@@ -5,6 +5,7 @@ export default defineConfig({
   title: "NarrativeCraft",
   description: "Documentation for the minecraft mod NarrativeCraft",
   ignoreDeadLinks: true,
+  base: "/NarrativeCraft-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
