@@ -2,8 +2,7 @@
 
 ## Basic Knowledge of Ink
 
-Ink has its own official [documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md).  
-You don’t need to learn the advanced features for now.
+Ink has its own official [documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md).
 
 This documentation will give you a basic understanding of how Ink works, so you can easily follow along with NarrativeCraft’s documentation.
 
