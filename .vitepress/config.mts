@@ -67,8 +67,16 @@ export default defineConfig({
             link: "/customizations/main-menu",
           },
           {
+            text: "Credits",
+            link: "/customizations/credits",
+          },
+          {
             text: "Sounds",
             link: "/customizations/sounds",
+          },
+          {
+            text: "Logo",
+            link: "/customizations/logo",
           },
         ],
       },
