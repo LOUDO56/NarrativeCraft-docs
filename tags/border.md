@@ -1,27 +1,27 @@
 # Border
 
-Add customizable borders around the screen to adjust the visible resolution and enhance ambiance.
+Add customizable borders around the screen to change the resolution and enhance ambiance.
+
+## Syntax
 
 `border %up% %right% %down% %left% [%color%] [%opacity%]`
 
 ## Parameters
 
-- **%up%**: Size of the top border in pixels.
-- **%right%**: Size of the right border in pixels.
-- **%down%**: Size of the bottom border in pixels.
-- **%left%**: Size of the left border in pixels.
-- **[%color%]** (optional): Hexadecimal color code for the border (without #).  
-  _Example_: `4J5162`  
-  Defaults to black or transparent if omitted.
-- **[%opacity%]** (optional): Opacity of the border as a float between 0 (transparent) and 1 (fully opaque).  
-  _Example_: `0.5`
+- `up` _(int, required)_ — top border height in pixels.
+- `right` _(int, required)_ — right border width in pixels.
+- `down` _(int, required)_ — bottom border height in pixels.
+- `left` _(int, required)_ — left border width in pixels.
+- `color` _(string, optional)_ — hexadecimal color code (without `#`). Default is black or transparent.
+- `opacity` _(float, optional)_ — value from `0` (fully transparent) to `1` (fully opaque). Default is fully opaque.
 
-## Example
+## Examples
 
 - `border 10 0 10 0 4J5162 0.5`  
-  Adds a top and bottom border of 10 pixels each, colored with hex `4J5162`, at 50% opacity.
+  Adds a 10px top and bottom border with color `4J5162` at 50% opacity.
 
-- Common aspect ratio presets:
-  - Cinematic 2.39:1 → `border 56 0 56 0`
-  - Widescreen 1.85:1 → `border 21 0 21 0`
-  - Classic 4:3 → `border 75 0 75 0`
+## Aspect Ratio Presets
+
+- Cinematic 2.39:1 → `border 56 0 56 0`
+- Widescreen 1.85:1 → `border 21 0 21 0`
+- Classic 4:3 → `border 75 0 75 0`

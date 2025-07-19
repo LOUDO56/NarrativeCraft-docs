@@ -1,27 +1,25 @@
 # Subscene Control
 
-Start or stop a subscene on the current scene. These actions target subscenes that have been linked to the current scene beforehand.
+Start or stop a subscene linked to the current scene.
 
-## Start Subscene
+## Syntax
 
+Start subscene:  
 `subscene start %subscene_name% [loop=true/false] [block]`
 
-- **%subscene_name%**: The name of the subscene to start.
-- **loop=true/false** *optional*: Whether the subscene should loop.
-- **block** *optional*: If present, the story will wait until the subscene completes.
-
-::: info
-Using the `block` keyword makes this a blocking command. It delays further script execution until the subscene ends.
-:::
-
-
-## Stop Subscene
-
+Stop subscene:  
 `subscene stop %subscene_name%`
 
-- Stops the specified subscene.
+## Parameters
+
+- `%subscene_name%` _(string)_: Name of the subscene to start or stop.
+- `loop=true/false` _(boolean, optional)_: Whether the subscene should loop when started.
+- `block` _(keyword, optional)_: If present, pauses the story progression until the subscene finishes.
 
 ## Example
 
+`subscene start fight_intro loop=true block`  
+Starts the subscene "fight_intro", loops it continuously, and blocks story progression until it finishes.
+
 `subscene stop fight_intro`  
-→ Instantly stops the subscene named "fight_intro".
+Instantly stops the subscene called "fight_intro".

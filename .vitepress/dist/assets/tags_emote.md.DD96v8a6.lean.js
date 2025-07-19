@@ -1,0 +1,1 @@
+import{_ as a,c as t,o,ag as r}from"./chunks/framework.CjL8bjs4.js";const p=JSON.parse('{"title":"Emote","description":"","frontmatter":{},"headers":[],"relativePath":"tags/emote.md","filePath":"tags/emote.md"}'),m={name:"tags/emote.md"};function i(n,e,c,l,s,d){return o(),t("div",null,e[0]||(e[0]=[r("",10)]))}const u=a(m,[["render",i]]);export{p as __pageData,u as default};

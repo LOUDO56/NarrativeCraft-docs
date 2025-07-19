@@ -2,29 +2,23 @@
 
 Shake the player’s screen to simulate effects like explosions or increase immersion.
 
-``shake %strength% %decay_rate% %speed%``
+## Syntax
+
+`shake %strength% %decay_rate% %speed%`
 
 ## Parameters
 
-- **strength**: The maximum offset of the screen shake. Higher values produce stronger shakes.  
-  *Type*: Integer or Float  
-  *Example*: `60` for a strong shake.
-
-- **decay_rate**: How quickly the shake effect diminishes over time. Higher values make the shake stop faster.  
-  *Type*: Integer or Float  
-  *Example*: `5` means the shake fades quickly.
-
-- **speed**: Frequency of the shaking noise or vibration. Higher values create faster shaking motions.  
-  *Type*: Float  
-  *Example*: `30` for fast shaking.
+- `%strength%` _(float)_: Maximum offset of the screen shake. Higher values produce stronger shakes.
+- `%decay_rate%` _(float)_: Rate at which the shake effect fades over time. Higher means faster decay.
+- `%speed%` _(float)_: Frequency of the shaking motion. Higher means faster shaking.
 
 ## Examples
 
-``shake 60 5 30``
-→ Shake rapidly and strongly, simulating an explosion with quick decay.
+`shake 60 5 30`  
+Strong and rapid shake with quick fade, simulating an explosion.
 
-``shake 4 0 0.1``
-Slow, smooth, infinite shake to create ambient immersion (no decay).
+`shake 4 0 0.1`  
+Slow, smooth, infinite shake with no decay for ambiance.
 
-``shake 0 0 0``
-Reset and stop any active shake effect.
+`shake 0 0 0`  
+Stops and resets all screen shake effects.

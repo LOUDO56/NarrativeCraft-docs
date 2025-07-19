@@ -4,13 +4,15 @@ Switches the player's view to a specific static camera angle.
 
 ## Syntax
 
-``camera set <parent> <child>``
+`camera set %parent% %child%`
 
-- `<parent>`: The parent name of the camera angle scene, created in the "Camera Angles" section.
-- `<child>`: The specific child camera angle name to focus on.
+## Parameters
+
+- `%parent%` _(string)_: The name of the camera angle group or scene.
+- `%child%` _(string)_: The specific camera angle (or keyframe) to apply from the given parent.
 
 ## Example
 
-``camera set village_pan intro_shot``
+`camera set village_pan intro_shot`
 
-This will switch the camera to the `intro_shot` under the `village_pan` camera angle scene.
+Switches the view to the `intro_shot` keyframe from the `village_pan` camera setup.

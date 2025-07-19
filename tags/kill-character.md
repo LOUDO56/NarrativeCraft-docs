@@ -2,16 +2,15 @@
 
 Remove a character entity from the world by killing it.
 
-``kill %name%``
+## Syntax
+
+`kill %name%`
 
 ## Parameters
 
-- **%name%**: The identifier or name of the character to be killed and removed from the scene.  
-  *Type*: String  
+- `%name%` _(string)_: Identifier or name of the character to kill and remove.
 
 ## Example
-``kill mark``
 
-## Behavior
-- Instantly removes the specified character entity from the world.
-- The character will no longer be present or interactable after this command.
+`kill mark`  
+Instantly kills and removes the character named "mark" from the world.

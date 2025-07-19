@@ -1,22 +1,24 @@
 # Change Weather
 
-`weather set <clear, rain, thunder>`
+Change the current weather state immediately.
 
-Changes the current weather state in the world immediately.
+## Syntax
+
+`weather set <clear, rain, thunder>`
 
 ## Parameters
 
-- **clear**: Clears the weather to a sunny state.
-- **rain**: Starts raining without thunder.
-- **thunder**: Starts a thunderstorm with rain and thunder effects.
+- `clear` _(keyword)_: Clears the weather to sunny.
+- `rain` _(keyword)_: Starts rain without thunder.
+- `thunder` _(keyword)_: Starts thunderstorm with rain and thunder effects.
 
-## Examples
+## Example
 
 `weather set clear`  
-→ Sets weather to clear skies.
+Sets weather to clear skies.
 
 `weather set rain`  
-→ Starts rain.
+Starts raining.
 
 `weather set thunder`  
-→ Starts a thunderstorm with rain and thunder sounds.
+Starts a thunderstorm with rain and thunder sounds.

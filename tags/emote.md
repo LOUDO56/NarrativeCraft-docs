@@ -6,15 +6,15 @@ This tag **only** works if [EmoteCraft](https://modrinth.com/plugin/emotecraft) 
 
 Play an emote animation on a character using EmoteCraft.
 
+## Syntax
+
 `emote play %emote_name% %character_name% %isForced%`
 
 ## Parameters
 
-- **%emote_name%**: The identifier of the emote animation to play.
-- **%character_name%**: The target character who will perform the emote.
-- **%isForced%**: Boolean value (`true` or `false`).
-  - `true`: Force the emote to play immediately, interrupting current animations if necessary.
-  - `false`: Play the emote only if the character is available, without interruption.
+- `%emote_name%` _(string)_: The identifier of the emote animation to play.
+- `%character_name%` _(string)_: The target character who will perform the emote.
+- `%isForced%` _(boolean)_: Force the emote to play.
 
 ## Example
 
@@ -22,4 +22,4 @@ Play an emote animation on a character using EmoteCraft.
 Makes the character "Mark" perform the "wave" emote immediately, forcing it if needed.
 
 `emote stop Mark`  
-Stop the current emote from character "Mark".
+Stops the current emote from the character "Mark".

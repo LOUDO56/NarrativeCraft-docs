@@ -1,0 +1,1 @@
+import{_ as a,c as t,o,ag as d}from"./chunks/framework.CjL8bjs4.js";const u=JSON.parse('{"title":"Fade Effect","description":"","frontmatter":{},"headers":[],"relativePath":"tags/fade.md","filePath":"tags/fade.md"}'),r={name:"tags/fade.md"};function s(l,e,n,c,i,f){return o(),t("div",null,e[0]||(e[0]=[d("",8)]))}const h=a(r,[["render",s]]);export{u as __pageData,h as default};

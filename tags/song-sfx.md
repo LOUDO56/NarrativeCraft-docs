@@ -1,86 +1,62 @@
 # Song/Sfx
 
-NarrativeCraft allows you to play and stop songs or sound effects using Ink tags. Sounds must be registered in the Minecraft `sounds.json`.
+Play sound from Minecraft. Sounds must be registered in Minecraft’s `sounds.json`.
 
-## Sound Name Format
+## Syntax
 
-The name follows the format: `%namespace:category.name%`
-
-- `namespace` (optional): Defaults to `minecraft` if omitted.
-- `category`: Sound category (e.g. `music`, `sfx`, etc.)
-- `name`: Sound name registered in `sounds.json`.
-
-### Examples
-
-- `custom.piano` → interpreted as `minecraft:custom.piano`
-- `modid:custom.sand` → full qualified name with custom namespace
-
-
-## Play a Song
+Play song:
 
 ```
-song start %namespace:category.name% [%volume% %pitch% [loop=true/false] [<fadein> %fadeTime%]]
+song start %namespace:category.name% [%volume% %pitch% [loop=true/false] [fadein %fadeTime%]]
 ```
 
-- Plays background music.
-- Volume and pitch are optional floats (e.g. `0.5` or `1.2`).
-- `loop=true/false` determines if the music should repeat.
-- `<fadein> %fadeTime%` fades in the sound over the given seconds.
-
-### Example
-
-```
-song start narrativecraft:music.intro 0.8 1.0 true fadein 2.0
-```
-
-## Play a Sound Effect
+Play sound effect:
 
 ```
 sfx start %namespace:category.name% [%volume% %pitch% [loop=true/false] [fadein %fadeTime%]]
 ```
 
-- Same parameters and behavior as for songs, used for sound effects (e.g., UI blips, footsteps).
+Stop song:  
+`song stop %namespace:category.name% [fadeout %fadeTime%]`
 
-### Example
+Stop sound effect:  
+`sfx stop %namespace:category.name% [fadeout %fadeTime%]`
 
-```
-sfx start sfx.page_turn 1.0 1.0
-```
+Stop all:  
+`song stop all`  
+`sfx stop all`  
+`sound stop all`
 
-## Stop a Song
-
-```
-song stop %namespace:category.name% [fadeout %fadeTime%]
-```
-
-- Stops a specific song with optional fadeout time in seconds.
-
-### Example
-
-```
-song stop narrativecraft:music.intro fadeout 3.0
-```
-
-
-## Stop a Sound Effect
-
-```
-sfx stop %namespace:category.name% [fadeout %fadeTime%]
-```
-
-- Stops a specific sound effect, optionally with fadeout.
-
-### Example
-
-``sfx stop sfx.page_turn``
-
-
-## Stop All Sounds
-
-- ``song stop all`` → Stops all currently playing songs.
-- ``sfx stop all`` → Stops all currently playing sound effects.
-- ``sound stop all`` → Stops both songs and sound effects at once.
 
 ::: info
 If no namespace is provided, `minecraft` is used as the default.
 :::
+
+## Parameters
+
+- `%namespace:category.name%` _(string)_: Sound identifier with optional namespace. Defaults to `minecraft` if omitted.
+- `%volume%` _(float, optional)_: Volume level (e.g., `0.5` for half volume).
+- `%pitch%` _(float, optional)_: Pitch level (e.g., `1.2` for higher pitch).
+- `loop` _(boolean, optional)_: Whether to loop the sound (`true` or `false`).
+- `fadein %fadeTime%` _(float, optional)_: Fade-in duration in seconds when starting sound.
+- `fadeout %fadeTime%` _(float, optional)_: Fade-out duration in seconds when stopping sound.
+
+## Examples
+
+`song start narrativecraft:music.intro 0.8 1 true fadein 2`  
+Starts playing the intro music at 80% volume, normal pitch, looping with a 2-second fade-in.
+
+`sfx start sfx.page_turn 1 1`  
+Plays the page turn sound effect at full volume and normal pitch.
+
+`song stop narrativecraft:music.intro fadeout 3`  
+Stops the intro music, fading out over 3 seconds.
+
+`sfx stop sfx.page_turn`  
+Immediately stops the page turn sound effect.
+
+`song stop all`  
+Stops all currently playing songs.
+
+`sound stop all`  
+Stops all songs and sound effects immediately.

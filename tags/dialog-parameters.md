@@ -2,70 +2,50 @@
 
 Change current parameters of the dialog box appearance and behavior.
 
+## Syntax
+
 `dialog <offset, scale, padding, width, textColor, backgroundColor, gap, letterSpacing, unSkippable, autoSkip, bobbing> [%value1%] [%value2%]`
 
 ## Parameters and Descriptions
 
-- **offset**: Adjusts the vertical position of the dialog box.  
-  *Value*: Float (positive or negative)  
-  *Example*: `dialog offset -1` moves the dialog box up by 1 unit.
+- `offset` _(float, float)_: Adjusts the x,y position of the dialog box from his initial position.
 
-- **scale**: Changes the size scale of the dialog box.  
-  *Value*: Float (default 1)  
-  *Example*: `dialog scale 1.3` increases the dialog box size by 30%.
+- `scale` _(float)_: Changes the size scale of the dialog box. Default is 1.
 
-- **padding**: Sets the padding inside the dialog box around the text.  
-  *Value*: Float or Integer (pixels or relative units)  
-  *Example*: `dialog padding 5` adds padding of 5 units around the text.
+- `padding` _(float)_: Sets the padding inside the dialog box around the text.
 
-- **width**: Sets the width of the dialog box.  
-  *Value*: Integer (pixels)  
-  *Example*: `dialog width 300` makes the dialog box 300 pixels wide.
+- `width` _(int)_: Sets the width of the dialog box in pixels.
 
-- **textColor**: Changes the text color using hex code or color name.  
-  *Value*: Hex string or Minecraft color code  
-  *Example*: `dialog textColor FF0000` sets text color to red.
+- `textColor` _(hex value)_: Changes the text color of the dialog box.
 
-- **backgroundColor**: Changes the background color of the dialog box.  
-  *Value*: Hex string or Minecraft color code  
-  *Example*: `dialog backgroundColor 862J5` sets the background to a specific color.
+- `backgroundColor` _(hex value)_: Changes the background color of the dialog box.
 
-- **gap**: Sets the gap between dialog elements (like text and portrait).  
-  *Value*: Integer or Float  
-  *Example*: `dialog gap 10` sets gap size to 10 units.
+- `gap` _(float)_: Sets the gap between dialog texts.
 
-- **letterSpacing**: Adjusts spacing between letters for stylistic effects.  
-  *Value*: Float (e.g., 1.0 = normal spacing)  
-  *Example*: `dialog letterSpacing 1.2` increases spacing by 20%.
+- `letterSpacing` _(float)_: Adjusts spacing between letters.
 
-- **unSkippable**: Makes the dialog impossible to skip by the player.  
-  *Value*: No additional value needed  
-  *Example*: `dialog unSkippable`
+- `unSkippable` _(boolean)_: Makes the dialog impossible for the player to skip.
 
-- **autoSkip**: Automatically skips dialog after a delay once finished.  
-  *Value*: Number (seconds)  
-  *Example*: `dialog autoSkip 2` auto skips dialog 2 seconds after finishing.
+- `autoSkip` _(float)_: Automatically skips dialog after the given seconds once finished.
 
-- **bobbing**: Adds a bobbing animation to the dialog box.  
-  *Values*: Two numbers — first is speed, second is strength of bobbing  
-  *Example*: `dialog bobbing 200 150` where 200 = speed, 150 = strength
+- `bobbing` _(float, float)_: Adds bobbing animation with speed and strength parameters.
 
 ## Example
 
 `dialog offset -1 0.7`  
-Moves the dialog box up by 1 unit and applies a secondary parameter 0.7 (depends on implementation).
+Moves the dialog up by 1 and move to the right by 0.7.
 
 `dialog scale 1.3`  
 Increases dialog box size by 30%.
 
 `dialog backgroundColor K862J5`  
-Sets background color using the code "K862J5".
+Sets dialog background color to hex code "K862J5".
 
 `dialog bobbing 200 150`  
 Adds bobbing animation with speed 200 and strength 150.
 
 `dialog unSkippable`  
-Player cannot skip this dialog.
+Makes the dialog unskippable by the player.
 
 `dialog autoSkip 2`  
-Dialog will auto skip 2 seconds after finishing.
+Dialog automatically skips 2 seconds after finishing.
