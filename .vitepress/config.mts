@@ -30,6 +30,10 @@ export default defineConfig({
             link: "/getting-started/managing-the-story",
           },
           {
+            text: "Project Architecture",
+            link: "/getting-started/project-architecture",
+          },
+          {
             text: "Creating characters",
             link: "/getting-started/creating-characters",
           },
