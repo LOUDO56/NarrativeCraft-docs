@@ -42,8 +42,8 @@ Applies a chaotic shaking motion.
 
 **Parameters:**
 
-- `time` _(float, optional)_ — interval between shakes. Lower = faster movement.
-- `force` _(float, optional)_ — intensity of the shake.
+- `time` _(float, optional)_ , interval between shakes. Lower = faster movement.
+- `force` _(float, optional)_ , intensity of the shake.
 
 `[shaking time=0.02, force=0.2]I'm angry![/shaking]`
 

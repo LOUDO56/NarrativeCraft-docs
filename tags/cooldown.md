@@ -12,8 +12,8 @@ This is a blocking command. The story will not proceed until the wait time has f
 
 ## Parameters
 
-- `%time%` _(float)_ — Length of the wait.
-- `<second(s), minute(s), hour(s)>` _(string)_ — Time unit for the wait duration.
+- `%time%` _(float)_ , Length of the wait.
+- `<second(s), minute(s), hour(s)>` _(string)_ , Time unit for the wait duration.
 
 ## Example
 

@@ -3,7 +3,7 @@
 ## What is NarrativeCraft?
 
 NarrativeCraft is a Minecraft mod that allows you to easily create interactive stories directly within the game.  
-Writing a story is one thing, but bringing it to life can be an entirely different task—especially when it involves creating all the assets yourself.
+Writing a story is one thing, but bringing it to life can be an entirely different task, especially when it involves creating all the assets yourself.
 
 NarrativeCraft helps bring your ideas to life using Minecraft's default assets. Additionally, you can enhance your story with custom resource packs, other mods, or shaders to give it a truly unique atmosphere.
 

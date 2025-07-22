@@ -1,7 +1,7 @@
 # Main Menu
 
 The main menu is shown when you join a world that contains a `narrativecraft` directory.  
-By default, it displays a black screen—but you have two options to customize the background.
+By default, it displays a black screen, but you have two options to customize the background.
 
 ## Add a Background Image
 

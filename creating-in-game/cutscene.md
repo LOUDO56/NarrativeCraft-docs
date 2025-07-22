@@ -86,7 +86,7 @@ Adjust the camera orientation.
 
 ## Creating a Camera Path with Keyframes
 
-Start by creating a keyframe group—it will be selected by default.  
+Start by creating a keyframe group, it will be selected by default.  
 Then, navigate through the cutscene and add keyframes to this group.
 
 It will look like this:

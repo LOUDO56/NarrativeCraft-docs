@@ -8,12 +8,12 @@ Add customizable borders around the screen to change the resolution and enhance 
 
 ## Parameters
 
-- `up` _(int, required)_ — top border height in pixels.
-- `right` _(int, required)_ — right border width in pixels.
-- `down` _(int, required)_ — bottom border height in pixels.
-- `left` _(int, required)_ — left border width in pixels.
-- `color` _(string, optional)_ — hexadecimal color code (without `#`). Default is black or transparent.
-- `opacity` _(float, optional)_ — value from `0` (fully transparent) to `1` (fully opaque). Default is fully opaque.
+- `up` _(int, required)_ , top border height in pixels.
+- `right` _(int, required)_ , right border width in pixels.
+- `down` _(int, required)_ , bottom border height in pixels.
+- `left` _(int, required)_ , left border width in pixels.
+- `color` _(string, optional)_ , hexadecimal color code (without `#`). Default is black or transparent.
+- `opacity` _(float, optional)_ , value from `0` (fully transparent) to `1` (fully opaque). Default is fully opaque.
 
 ## Examples
 

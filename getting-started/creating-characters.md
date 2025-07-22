@@ -14,4 +14,4 @@ and replace the file named `main.png`.
 Optionally, you can add multiple skins. These are used to define alternate outfits for the `main.png` skin.
 
 To change the entity type, click the character button.  
-From there, you can choose from all available entity types—both vanilla and modded.
+From there, you can choose from all available entity types, both vanilla and modded.
