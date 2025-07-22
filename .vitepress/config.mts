@@ -162,6 +162,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Developers",
+        items: [
+          {
+            text: "Forking",
+            link: "/developers/forking",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
