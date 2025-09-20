@@ -4,7 +4,7 @@ Change current parameters of the dialog box appearance and behavior.
 
 ## Syntax
 
-`dialog <offset, scale, padding, width, textColor, backgroundColor, gap, letterSpacing, unSkippable, autoSkip, bobbing> [%value1%] [%value2%]`
+`dialog <offset, scale, padding, width, text_color, background_color, gap, letter_spacing, no_skip, auto_skip, manual_skip, bobbing> [%value1%] [%value2%]`
 
 ## Parameters and Descriptions
 
@@ -16,21 +16,23 @@ Change current parameters of the dialog box appearance and behavior.
 
 - `width` _(int)_: Sets the width of the dialog box in pixels.
 
-- `textColor` _(hex value)_: Changes the text color of the dialog box.
+- `text_color` _(hex value)_: Changes the text color of the dialog box.
 
-- `backgroundColor` _(hex value)_: Changes the background color of the dialog box.
+- `background_color` _(hex value)_: Changes the background color of the dialog box.
 
 - `gap` _(float)_: Sets the gap between dialog texts.
 
-- `letterSpacing` _(float)_: Adjusts spacing between letters.
+- `letter_spacing` _(float)_: Adjusts spacing between letters.
 
-- `unSkippable` _(boolean)_: Makes the dialog impossible for the player to skip.
+- `no_skip` _(boolean)_: Makes the dialog impossible for the player to skip.
 
-- `autoSkip` _(float)_: Automatically skips dialog after the given seconds once finished.
+- `manual_skip` _(boolean)_: Makes the dialog skippable manually.
+
+- `auto_skip` _(float)_: Automatically skips dialog after the given seconds once finished.
 
 - `bobbing` _(float, float)_: Adds bobbing animation with speed and strength parameters.
 
-## Example
+## Examples
 
 `dialog offset -1 0.7`  
 Moves the dialog up by 1 and move to the right by 0.7.
@@ -38,14 +40,14 @@ Moves the dialog up by 1 and move to the right by 0.7.
 `dialog scale 1.3`  
 Increases dialog box size by 30%.
 
-`dialog backgroundColor K862J5`  
+`dialog background_color K862J5`  
 Sets dialog background color to hex code "K862J5".
 
-`dialog bobbing 200 150`  
-Adds bobbing animation with speed 200 and strength 150.
+`dialog bobbing 1.2 2.4`  
+Adds bobbing animation with speed 1.2 and strength 2.4.
 
-`dialog unSkippable`  
-Makes the dialog unskippable by the player.
+`dialog no_skip`  
+Makes the dialog not skippable by the player.
 
-`dialog autoSkip 2`  
+`dialog auto_skip 2`  
 Dialog automatically skips 2 seconds after finishing.

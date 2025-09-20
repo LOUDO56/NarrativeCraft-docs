@@ -16,7 +16,7 @@ Play an emote animation on a character using EmoteCraft.
 - `%character_name%` _(string)_: The target character who will perform the emote.
 - `%isForced%` _(boolean)_: Force the emote to play.
 
-## Example
+## Examples
 
 `emote play wave Mark true`  
 Makes the character "Mark" perform the "wave" emote immediately, forcing it if needed.

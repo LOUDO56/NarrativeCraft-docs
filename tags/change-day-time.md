@@ -25,7 +25,7 @@ Change the time of the world.
 - `%easing%` _optional_:  
   Easing function used for interpolation (e.g., `linear`, `ease_in`, `ease_out`, etc.).
 
-## Example
+## Examples
 
 `time set midnight`  
 Sets the world time instantly to midnight.

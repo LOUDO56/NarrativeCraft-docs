@@ -34,6 +34,10 @@ export default defineConfig({
             link: "/getting-started/project-architecture",
           },
           {
+            text: "Building the story",
+            link: "/getting-started/building-the-story",
+          },
+          {
             text: "Creating characters",
             link: "/getting-started/creating-characters",
           },
@@ -61,12 +65,18 @@ export default defineConfig({
         ],
       },
       {
-        text: "Tags",
+        text: "Writing",
         items: [
           {
             text: "Dialog",
-            link: "/tags/dialog",
-          },
+            link: "/writing/dialog",
+          }
+        ],
+      },
+      {
+        text: "Tags",
+        collapsed: true,
+        items: [
           {
             text: "Animation",
             link: "/tags/animation",
@@ -168,6 +178,10 @@ export default defineConfig({
           {
             text: "Forking",
             link: "/developers/forking",
+          },
+          {
+            text: "Create your own Ink Action",
+            link: "/developers/create-your-own-ink-action",
           },
         ],
       },

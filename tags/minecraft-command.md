@@ -10,7 +10,7 @@ Executes any Minecraft command, custom or vanilla.
 If the command contains curly braces `{}` (used for JSON or NBT data), Ink treats them as variable delimiters and throws an error. Escape each brace with a backslash `\` to prevent this.
 :::
 
-## Example
+## Examples
 
 Original command (causes error):  
 `text_display ~ ~ ~ {billboard:"center",text:"hello",background:-65536}`

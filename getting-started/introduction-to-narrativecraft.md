@@ -2,10 +2,9 @@
 
 ## What is NarrativeCraft?
 
-NarrativeCraft is a Minecraft mod that allows you to easily create interactive stories directly within the game.  
-Writing a story is one thing, but bringing it to life can be an entirely different task, especially when it involves creating all the assets yourself.
+Imagine creating your own narrative game like a Life Is Strange or Until Then, this mod provides you everything to start creating a solo interactive game without any code knowledge.
 
-NarrativeCraft helps bring your ideas to life using Minecraft's default assets. Additionally, you can enhance your story with custom resource packs, other mods, or shaders to give it a truly unique atmosphere.
+Plus, you don't need to create everything from scratch, you have a 3D world, characters, shaders, resource packs, datapacks, other minecraft mods to create the perfect mood for your story
 
 ## How Does This Mod Work?
 

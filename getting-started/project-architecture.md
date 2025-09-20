@@ -1,37 +1,36 @@
 # Project Architecture
 
-## Main File
+## Ink File Structure
 
-NarrativeCraft has a structured way to manage a story with [Ink](https://github.com/inkle/ink).
+NarrativeCraft organizes its story logic into three main Ink files:
 
-Every scene that a chapter contains has its own unique `.ink` file. The overall flow of the story is controlled by a central file called `main.ink`.
+- **`main.ink`**  
+  This is the central file that contains all `INCLUDE` directives for chapters and scenes.  
+  It is automatically managed by NarrativeCraft and should **not** be edited manually.  
+  Any manual modifications will be overwritten when new scenes or chapters are added.
 
-`main.ink` is located at:
+- **`vars.ink`**  
+  This file is dedicated to the definition of **global variables**.  
+  Variables declared here are accessible across all chapters and scenes.
 
-`/saves/<your_world>/narrativecraft/main.ink`
+- **`funcs.ink`**  
+  This file is reserved for **global function definitions**.  
+  Functions written here can be reused throughout the entire narrative.
 
-When opening `main.ink` with [Inky](https://github.com/inkle/inky), all scene files will be included automatically. This allows you to:
+## File Locations
 
-- Define global variables in `main.ink`
-- Access those variables in any scene file
-- Have a centralized view of your full narrative structure
+All Ink files are stored within the save directory of your world:
 
-There is no need to include scene files manually. Every time you add a new scene in-game, NarrativeCraft updates `main.ink` for you by inserting the correct `INCLUDE` directives.
+`/saves/<your_world>/narrativecraft/`
+
+
+## Usage Notes
+
+- `main.ink` acts as the entry point, including all chapters and scenes automatically.  
+- `vars.ink` and `funcs.ink` provide shared resources for the narrative system.  
+- Scene-specific `.ink` files should only contain their respective content, while shared logic remains in `vars.ink` and `funcs.ink`.
 
 ::: danger Important
-Knot names **must not** be changed manually. Doing so will break the story flow.  
-If you want to rename a scene, always do it **in-game** only.
+Do **not** edit `main.ink` manually. Knot names and includes are handled by the game.  
+Always manage chapters, scenes, and their names directly **in-game**.
 :::
-
-## Building the story
-
-To build and export your Ink story for use in NarrativeCraft:
-
-1. In Inky, go to the **Files** menu.
-2. Click **Export to JSON**.
-3. Navigate to the folder:  
-   `narrativecraft/build`
-4. Name the exported file:  
-   `story.json`
-
-This will generate the compiled Ink story that NarrativeCraft reads at runtime.

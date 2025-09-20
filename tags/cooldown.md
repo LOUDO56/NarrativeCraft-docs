@@ -15,7 +15,7 @@ This is a blocking command. The story will not proceed until the wait time has f
 - `%time%` _(float)_ , Length of the wait.
 - `<second(s), minute(s), hour(s)>` _(string)_ , Time unit for the wait duration.
 
-## Example
+## Examples
 
 `wait 5 seconds`  
 Pauses the story for 5 seconds before continuing.

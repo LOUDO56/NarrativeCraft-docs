@@ -23,7 +23,7 @@ Stop subscene:
 This is a **blocking command** if `block` is true. It will pause the story until the subscene ends.
 :::
 
-## Example
+## Examples
 
 `subscene start fight_intro true false true`  
 Starts the subscene "fight_intro", loops it continuously, and blocks story progression until it finishes.

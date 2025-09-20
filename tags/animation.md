@@ -23,7 +23,7 @@ Stops the specified animation.
 This is a **blocking command** if `block` is true. It will pause the story until the animation ends.
 :::
 
-## Example
+## Examples
 
 `animation start wave false true`
 Start the wave animation, don't loop, and the character is removed from the world when it ends.

@@ -4,7 +4,7 @@
 
 Ink has its own official [documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md).
 
-This documentation will give you a basic understanding of how Ink works, so you can easily follow along with NarrativeCraft’s documentation.
+The 5 first sections will give you a basic understanding of how Ink works, so you can easily follow along with NarrativeCraft’s documentation.
 
 ## Inky
 

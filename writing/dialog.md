@@ -1,4 +1,4 @@
-# Dialog (Non-Tag)
+# Dialog
 
 Dialog lines in NarrativeCraft are standard Ink lines but can trigger in-game speech when written in a specific format.
 
@@ -24,19 +24,19 @@ You can apply animated text effects to dialog using inline tags.
 
 ### Syntax
 
-`[<effect> (param1=value1, param2=value2)]<text>[/<effect>]`
+`[<effect> (param1=value1 param2=value2)]<text>[/<effect>]`
 
 Effects apply **only** to the enclosed text. All parameters are optional unless stated otherwise.
 
 ### Available Effects
 
-#### `waving`
+#### `wave`
 
 Applies a horizontal wave motion to the text.
 
-`[waving]Hellooo!![/waving]`
+`[wave]Hellooo!![/wave]`
 
-#### `shaking`
+#### `shake`
 
 Applies a chaotic shaking motion.
 
@@ -45,8 +45,8 @@ Applies a chaotic shaking motion.
 - `time` _(float, optional)_ , interval between shakes. Lower = faster movement.
 - `force` _(float, optional)_ , intensity of the shake.
 
-`[shaking time=0.02, force=0.2]I'm angry![/shaking]`
+`[shake time=0.02 force=0.2]I'm angry![/shake]`
 
 ## Example
 
-`Mark: [shaking force=0.1]What did you just say?[/shaking]`
+`Mark: [shake force=0.1]What did you just say?[/shake]`
