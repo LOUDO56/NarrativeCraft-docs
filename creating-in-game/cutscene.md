@@ -123,12 +123,11 @@ To add multiple tags, separate them by lines.
 
 - **On Enter**: This tag is **ONLY** used when entering a scene.
 - **Save**: This is only available when the camera is not moving.
-- **Cooldown**: Causes unstable behavior and desynchronization.
   :::
 
 ## Cutscene Settings
 
 This section allows you to:
 
-- Change the cutscene’s skip time (default is 5s)
+- Change the cutscene’s skip time (default is 1s)
 - Change the currently selected keyframe group

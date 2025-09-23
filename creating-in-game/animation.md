@@ -15,7 +15,7 @@ If you see a message saying you need to have a session, refer to [this section](
 Now, move around, place or break blocks, perform actions, and when you're done, execute `/nc record stop`.
 
 However, the recording is not saved yet.  
-To save it, execute `/nc record save`. A list of main characters or [NPCs]() will appear, assign the animation to a character and click "Done".
+To save it, execute `/nc record save`. A list of main characters or [NPCs](/creating-in-game/npc.md) will appear, assign the animation to a character and click "Done".
 
 ## Multiple Recordings at the Same Time
 

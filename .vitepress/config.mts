@@ -70,6 +70,10 @@ export default defineConfig({
           {
             text: "Dialog",
             link: "/writing/dialog",
+          },
+          {
+            text: "Making characters talk",
+            link: "/writing/making-characters-talk",
           }
         ],
       },
