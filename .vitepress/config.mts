@@ -72,6 +72,10 @@ export default defineConfig({
             link: "/writing/dialog",
           },
           {
+            text: "Dialog 2D",
+            link: "/writing/dialog_2d",
+          },
+          {
             text: "Making characters talk",
             link: "/writing/making-characters-talk",
           }
