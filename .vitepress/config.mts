@@ -196,6 +196,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
+      { icon: "modrinth", link: "https://modrinth.com/mod/narrativecraft" },
+      { icon: "curseforge", link: "https://www.curseforge.com/minecraft/mc-mods/narrativecraft" },
       { icon: "github", link: "https://github.com/LOUDO56/NarrativeCraft" },
       { icon: "discord", link: "https://discord.gg/E3zzNv79DN" },
     ],
