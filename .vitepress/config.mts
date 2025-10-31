@@ -8,7 +8,10 @@ export default defineConfig({
   base: "/NarrativeCraft-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Changelog", link: "/changelog/all" }
+    ],
     search: {
       provider: "local",
     },
