@@ -22,7 +22,7 @@ Each text element is identified by an **ID** (`%id%`), making it possible to mod
 ### `create`
 Creates a new text element.  
 **Syntax:**  
-`text %id% create "Your text here" [%color%] (--drop-shadow)`
+`text %id% create "Your text here" [%color%] (--no-drop-shadow)`
 
 Example:  
 `text inside_head create "You failed." color=e81a1a dropShadow=true`
