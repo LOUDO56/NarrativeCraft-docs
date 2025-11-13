@@ -30,6 +30,10 @@ It contains several files and folders, let's break it down:
 - `vars.ink`  
     Variables that will be used throughout the story, such as a name or an important choice.
 
+## Enter developmnent mode
+
+If you are on the main screen when you join a world and want to close it without leaving the world, simply press CTRL LEFT five times. A button labeled `Development Environment` will appear at the top right of your screen, allowing you to access the world and all its NarrativeCraft data.
+
 ## Managing the story
 
 To open the story manager, press `N`. It will open a screen with a list of chapters and their scenes, scene data, etc.  
