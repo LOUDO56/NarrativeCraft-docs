@@ -7,7 +7,7 @@ By default, it displays a black screen, but you have two options to customize th
 
 You can replace the black background with a custom image.  
 To do this, create a custom resource pack and add your image with the **exact** path and name:  
-`textures/narrativecraft_mainscreen/background.png`
+`narrativecraft/assets/textures/main_screen/background.png`
 
 ## Use a Scene as Background
 
@@ -29,14 +29,14 @@ Example of a custom animated background, with a keyframe trigger:
 
 To add background music to the main menu:
 
-1. In your resource pack, create a `sounds.json` file inside `assets/minecraft`
+1. In your resource pack, create a `sounds.json` file inside `assets/narrativecraft`
 2. Add the following content to `sounds.json`:
 
 ```json
-"narrativecraft_mainscreen.music": {
+"main_screen.music": {
   "category": "master",
-  "sounds": ["narrativecraft_mainscreen/music"]
+  "sounds": ["narrativecraft:main_screen/music"]
 }
 ```
 
-3.  Place your .ogg music file at: `sounds/narrativecraft_mainscreen/music.ogg` (Make sure the name matches exactly.)
+3.  Place your .ogg music file at: `narrativecraft/assets/sounds/main_screen/music.ogg` (Make sure the name matches exactly.)

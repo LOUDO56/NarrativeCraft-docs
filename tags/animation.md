@@ -6,7 +6,7 @@ Start or stop an animation on the current scene.
 
 Start an animation on the current scene.
 
-`animation start %animation_name% [loop=true/false] [unique=true/false] [block=true/false]`
+`animation start %animation_name% (--loop) (--unique) (--block)`
 
 Stops the specified animation.
 
@@ -14,10 +14,10 @@ Stops the specified animation.
 
 ## Parameters
 
-- `animation_name` _(string, required)_ , the name of the animation to play.
-- `loop` _(boolean, optional)_ , whether the animation should loop. Default is `false`.
-- `unique` _(boolean, optional)_ , if true, the character will be removed from the word. Default is `false`.
-- `block` _(boolean, optional)_ , if true, the story will wait for the animation to complete before continuing. Default is `false`.
+- `animation_name` _(string, required)_ The name of the animation to play.
+- `--loop` _(argument, optional)_ Loop the animation.
+- `--unique` _(argument, optional)_ Kill entities when the animation end.
+- `--block` _(argument, optional)_ Story will wait for the animation to complete before continuing.
 
 ::: info
 This is a **blocking command** if `block` is true. It will pause the story until the animation ends.
@@ -25,8 +25,6 @@ This is a **blocking command** if `block` is true. It will pause the story until
 
 ## Examples
 
-`animation start wave false true`
-Start the wave animation, don't loop, and the character is removed from the world when it ends.
+- `animation start wave --unique`
+- `animation stop wave`
 
-`animation stop wave`
-Stop instantly animation wave.

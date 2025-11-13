@@ -8,20 +8,20 @@ It uses Minecraft's default credits screen with added customizations.
 
 Unlike the [Main Screen](/customizations/main-menu), you can **only** use a static background image.  
 To set it, place your `.png` file at:  
-`textures/narrativecraft_credits/background.png`
+`narrativecraft/assets/textures/credits/background.png`
 
 ## Background Music
 
 Like the [Main Screen](/customizations/main-menu), you can add background music.  
 Place your `.ogg` file at:  
-`sounds/narrativecraft_credits/music.ogg`
+`narrativecraft/assets/sounds/credits/music.ogg`
 
 Then add the following to your `sounds.json`:
 
 ```json
-"narrativecraft_credits.music": {
+"credits.music": {
   "category": "master",
-  "sounds": ["narrativecraft_credits/music"]
+  "sounds": ["narrativecraft:credits/music"]
 }
 ```
 

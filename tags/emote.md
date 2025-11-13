@@ -8,18 +8,15 @@ Play an emote animation on a character using EmoteCraft.
 
 ## Syntax
 
-`emote play %emote_name% %character_name% %isForced%`
+`emote play %emote_name% %character_name% --force`
 
 ## Parameters
 
-- `%emote_name%` _(string)_: The identifier of the emote animation to play.
-- `%character_name%` _(string)_: The target character who will perform the emote.
-- `%isForced%` _(boolean)_: Force the emote to play.
+- `%emote_name%` _(string, required)_: The identifier of the emote animation to play.
+- `%character_name%` _(string, required)_: The target character who will perform the emote.
+- `--force` _(argument, optional)_: Force the emote to play.
 
 ## Examples
 
-`emote play wave Mark true`  
-Makes the character "Mark" perform the "wave" emote immediately, forcing it if needed.
-
-`emote stop Mark`  
-Stops the current emote from the character "Mark".
+- `emote play wave Mark --force`  
+- `emote stop Mark`  

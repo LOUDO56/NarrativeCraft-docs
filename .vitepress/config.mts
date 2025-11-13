@@ -6,11 +6,16 @@ export default defineConfig({
   description: "Documentation for the minecraft mod NarrativeCraft",
   ignoreDeadLinks: true,
   base: "/NarrativeCraft-docs/",
+  markdown: {
+    theme: {
+      light: 'catppuccin-latte',
+      dark: 'catppuccin-mocha',
+    }
+  },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/referenc e/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Changelog", link: "/changelog/all" }
     ],
     search: {
       provider: "local",
@@ -25,30 +30,22 @@ export default defineConfig({
           },
           { text: "Prerequisites", link: "/getting-started/prerequisites" },
           {
-            text: "Initializing a story",
-            link: "/getting-started/initializing-your-first-story",
-          },
-          {
-            text: "Managing the story",
-            link: "/getting-started/managing-the-story",
-          },
-          {
-            text: "Project Architecture",
-            link: "/getting-started/project-architecture",
-          },
-          {
-            text: "Building the story",
-            link: "/getting-started/building-the-story",
-          },
-          {
-            text: "Creating characters",
-            link: "/getting-started/creating-characters",
-          },
+            text: "Quick Overview",
+            link: "/getting-started/quick-overview"
+          }
         ],
       },
       {
         text: "Creating in-game",
         items: [
+          {
+            text: "Character",
+            link: "/creating-in-game/character"
+          },
+          {
+            text: "Interaction",
+            link: "/creating-in-game/interaction"
+          },
           {
             text: "Animation",
             link: "/creating-in-game/animation",
@@ -86,7 +83,6 @@ export default defineConfig({
       },
       {
         text: "Tags",
-        collapsed: true,
         items: [
           {
             text: "Animation",
@@ -117,6 +113,10 @@ export default defineConfig({
             link: "/tags/dialog-parameters",
           },
           {
+            text: "Gameplay",
+            link: "/tags/gameplay",
+          },
+          {
             text: "Minecraft command",
             link: "/tags/minecraft-command",
           },
@@ -133,6 +133,10 @@ export default defineConfig({
             link: "/tags/kill-character",
           },
           {
+            text: "Interaction",
+            link: "/tags/interaction",
+          },
+          {
             text: "On Enter",
             link: "/tags/on-enter",
           },
@@ -147,6 +151,10 @@ export default defineConfig({
           {
             text: "Song/Sfx",
             link: "/tags/song-sfx",
+          },
+          {
+            text: "Text",
+            link: "/tags/text"
           },
           {
             text: "Subscene",

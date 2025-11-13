@@ -34,19 +34,23 @@ Effects apply **only** to the enclosed text. All parameters are optional unless 
 
 Applies a horizontal wave motion to the text.
 
-`[wave]Hellooo!![/wave]`
-
 #### `shake`
 
 Applies a chaotic shaking motion.
 
 **Parameters:**
 
-- `time` _(float, optional)_ , interval between shakes. Lower = faster movement.
-- `force` _(float, optional)_ , intensity of the shake.
+- `time` _(float, optional)_ interval between shakes. Lower = faster movement.
+- `force` _(float, optional)_ intensity of the shake.
 
-`[shake time=0.02 force=0.2]I'm angry![/shake]`
+#### `shake`
+
+**Parameters:**
+
+- `time` _(float)_ Value to wait before the text continue to render
 
 ## Example
 
-`Mark: [shake force=0.1]What did you just say?[/shake]`
+- `Mark: [shake force=0.1]What did you just say?[/shake]`
+- `Jade: [wave]I'm just chilling[/wave]`
+- `Jake: I'm... [wait time=1]I'm sorry.`

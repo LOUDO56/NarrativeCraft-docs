@@ -8,9 +8,8 @@ Remove a character entity from the world by killing it.
 
 ## Parameters
 
-- `%name%` _(string)_: Identifier or name of the character to kill and remove.
+- `%name%` _(string, required)_: Identifier or name of the character to kill and remove.
 
 ## Example
 
-`kill mark`  
-Instantly kills and removes the character named "mark" from the world.
+- `kill mark`  

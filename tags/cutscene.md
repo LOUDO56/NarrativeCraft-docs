@@ -12,9 +12,8 @@ Blocking command: The story will continue only after this cutscene has ended.
 
 ## Parameters
 
-- `%cutscene_name%` _(string)_ , Identifier of the cutscene to start. Must exactly match a registered cutscene name.
+- `%cutscene_name%` _(string, required)_ Identifier of the cutscene to start. Must exactly match a registered cutscene name.
 
 ## Example
 
-`cutscene start intro_scene`
-Starts the cutscene named "intro_scene" and blocks the story until it finishes.
+- `cutscene start intro_scene`

@@ -4,7 +4,7 @@ Change the current weather state immediately.
 
 ## Syntax
 
-`weather <clear, rain, thunder> [instantly=true/false]`
+`weather <clear, rain, thunder> (--instant)`
 
 On multiplayer, the weather is automatically instant.
 
@@ -13,17 +13,11 @@ On multiplayer, the weather is automatically instant.
 - `clear` _(keyword)_: Clears the weather to sunny.
 - `rain` _(keyword)_: Starts rain without thunder.
 - `thunder` _(keyword)_: Starts thunderstorm with rain and thunder effects.
+- `instant` _(argument, optional)_: Don't show any weather transition
 
 ## Examples
 
-`weather clear`  
-Sets weather to clear skies.
-
-`weather rain`  
-Starts raining.
-
-`weather rain true`  
-Starts raining instantly.
-
-`weather thunder`  
-Starts a thunderstorm with rain and thunder sounds.
+- `weather clear`  
+- `weather rain`  
+- `weather rain --instant`  
+- `weather thunder`  

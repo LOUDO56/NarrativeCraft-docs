@@ -7,14 +7,14 @@ hero:
   text: "Be ready to create unique stories!"
   tagline: Documentation for the minecraft mod NarrativeCraft
   actions:
-    - theme: alt
-      text: QuickStart
+    - theme: brand
+      text: Getting Started
       link: /getting-started/introduction-to-narrativecraft
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Create narrative game in Minecraft
+    details: Express yourself without learning a game engine!
+  - title: All-in-one
+    details: No addons, everything is in NarrativeCraft directly.
+  - title: No coding
+    details: Only text, expressions and some logic!
 ---

@@ -27,11 +27,6 @@ Change the time of the world.
 
 ## Examples
 
-`time set midnight`  
-Sets the world time instantly to midnight.
-
-`time set 0 to 6000 for 5 seconds linear`  
-Smoothly transitions the time from tick 0 (dawn) to tick 6000 (noon) over 5 seconds with linear easing.
-
-`time add 1200`  
-Adds 1200 ticks (approximately one hour) to the current time.
+- `time set midnight`  
+- `time set 0 to 6000 for 5 seconds linear`  
+- `time add 1200`  

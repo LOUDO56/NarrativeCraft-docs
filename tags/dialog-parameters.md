@@ -2,6 +2,8 @@
 
 Change current parameters of the dialog box appearance and behavior.
 
+It's reset to default values every time the player change a scene.
+
 ## Syntax
 
 `dialog <offset, scale, padding, width, text_color, background_color, gap, letter_spacing, no_skip, auto_skip, manual_skip, bobbing> [%value1%] [%value2%]`
@@ -34,20 +36,9 @@ Change current parameters of the dialog box appearance and behavior.
 
 ## Examples
 
-`dialog offset -1 0.7`  
-Moves the dialog up by 1 and move to the right by 0.7.
-
-`dialog scale 1.3`  
-Increases dialog box size by 30%.
-
-`dialog background_color K862J5`  
-Sets dialog background color to hex code "K862J5".
-
-`dialog bobbing 1.2 2.4`  
-Adds bobbing animation with speed 1.2 and strength 2.4.
-
-`dialog no_skip`  
-Makes the dialog not skippable by the player.
-
-`dialog auto_skip 2`  
-Dialog automatically skips 2 seconds after finishing.
+- `dialog offset -1 0.7`  
+- `dialog scale 1.3`  
+- `dialog background_color K862J5`  
+- `dialog bobbing 1.2 2.4`  
+- `dialog no_skip`
+- `dialog auto_skip 2` 

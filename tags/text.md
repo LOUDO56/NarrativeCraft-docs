@@ -22,7 +22,7 @@ Each text element is identified by an **ID** (`%id%`), making it possible to mod
 ### `create`
 Creates a new text element.  
 **Syntax:**  
-`text %id% create "Your text here" [color=hexa] [dropShadow=boolean]`
+`text %id% create "Your text here" [%color%] (--drop-shadow)`
 
 Example:  
 `text inside_head create "You failed." color=e81a1a dropShadow=true`
@@ -90,13 +90,13 @@ Example:
 ### `type`
 Defines typing behavior.  
 **Syntax:**  
-`text %id% type %isBlock=boolean% %endAfter% %textSpeed%`
+`text %id% type %end_after% %text_speed% --block`
 
 Example:  
-`text inside_head type true 2 0.1`
+`text inside_head type 2 0.1 --block`
 
 ### `font`
-Changes the font of the text.  
+Changes the font of the text. You need to reference it to the `font/default.json` file of your resource pack
 **Syntax:**  
 `text %id% font %resource_path%`
 
@@ -118,7 +118,7 @@ text inside_head create "And you are aware of it."
 text inside_head position top_left
 text inside_head spacing 10 10
 text inside_head scale 1.7
-text inside_head type true 2 0.1
+text inside_head type 2 0.1 --block
 text inside_head color e81a1a
 text inside_head edit "You are [shake]horrible[/shake]."
 text inside_head edit "You make me [shake]sick[/shake]."

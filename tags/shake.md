@@ -8,9 +8,9 @@ Shake the player’s screen to simulate effects like explosions or increase imme
 
 ## Parameters
 
-- `%strength%` _(float)_: Maximum offset of the screen shake. Higher values produce stronger shakes.
-- `%decay_rate%` _(float)_: Rate at which the shake effect fades over time. Higher means faster decay.
-- `%speed%` _(float)_: Frequency of the shaking motion. Higher means faster shaking.
+- `%strength%` _(float, required)_: Maximum offset of the screen shake. Higher values produce stronger shakes.
+- `%decay_rate%` _(float, required)_: Rate at which the shake effect fades over time. Higher means faster decay.
+- `%speed%` _(float, required)_: Frequency of the shaking motion. Higher means faster shaking.
 
 ## Examples
 
