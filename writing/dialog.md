@@ -18,6 +18,18 @@ This means they need to be present through an animation, subscene, cutscene, or 
 Otherwise, the story will crash and throw a runtime error.
 :::
 
+## Variables
+
+You can put your variables inside a dialog or tags
+
+Example:
+
+```ink
+VAR eat_apple = 6
+
+Jake: I ate %eat_apple% apple!
+```
+
 ## Text Effects
 
 You can apply animated text effects to dialog using inline tags.
