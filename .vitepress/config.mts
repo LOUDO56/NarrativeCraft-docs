@@ -6,14 +6,15 @@ export default defineConfig({
   description: "Documentation for the minecraft mod NarrativeCraft",
   ignoreDeadLinks: true,
   base: "/NarrativeCraft-docs/",
+  lang: "en-US",
   markdown: {
     theme: {
       light: 'catppuccin-latte',
       dark: 'catppuccin-mocha',
     }
   },
+  head: [['link', { rel: 'icon', href: '/NarrativeCraft-docs/favicon.ico' }]],
   themeConfig: {
-    // https://vitepress.dev/referenc e/default-theme-config
     nav: [
       { text: "Home", link: "/" },
     ],
@@ -83,6 +84,7 @@ export default defineConfig({
       },
       {
         text: "Tags",
+        collapsed: false,
         items: [
           {
             text: "Animation",
