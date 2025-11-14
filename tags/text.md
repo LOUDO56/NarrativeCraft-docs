@@ -46,7 +46,7 @@ Sets the screen position of the text element.
 `text %id% position <top_left|top|top_right|center_left|center|center_right|bottom_left|bottom|bottom_right>`
 
 Example:  
-`text title position top_center`
+`text title position top_left`
 
 ### `color`
 Changes the text color.  
