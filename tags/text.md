@@ -25,7 +25,7 @@ Creates a new text element.
 `text %id% create "Your text here" [%color%] (--no-drop-shadow)`
 
 Example:  
-`text inside_head create "You failed." color=e81a1a dropShadow=true`
+`text inside_head create "You failed." e81a1a --no-drop-shadow`
 
 ### `edit`
 Edits the text content of an existing element.  
@@ -90,13 +90,14 @@ Example:
 ### `type`
 Defines typing behavior.  
 **Syntax:**  
-`text %id% type %end_after% %text_speed% --block`
+`text %id% type %end_after% %text_speed% (--block)`
 
 Example:  
 `text inside_head type 2 0.1 --block`
 
 ### `font`
 Changes the font of the text. You need to reference it to the `font/default.json` file of your resource pack
+
 **Syntax:**  
 `text %id% font %resource_path%`
 
@@ -109,7 +110,7 @@ Assigns a custom typing sound to the text.
 `text %id% sound %sound_name%`
 
 Example:  
-`text title sound sfx/computer`
+`text title sound sfx.computer`
 
 ## Examples
 
