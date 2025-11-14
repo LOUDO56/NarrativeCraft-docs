@@ -55,7 +55,7 @@ Applies a chaotic shaking motion.
 - `time` _(float, optional)_ interval between shakes. Lower = faster movement.
 - `force` _(float, optional)_ intensity of the shake.
 
-#### `wave`
+#### `wait`
 
 **Parameters:**
 
