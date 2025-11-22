@@ -5,7 +5,7 @@ Each text element can be created, modified, repositioned, styled, or removed dyn
 
 ## Syntax
 
-`text %id% <create|remove|edit|position|color|scale|spacing|width|fade|fadein|fadeout|type|font|sound> %...values%`
+`text %id% <create|remove|edit|position|color|scale|spacing|width|fade|fadein|fadeout|type|font|sound> %...values% (--no-remove)`
 
 ## Description
 
@@ -16,6 +16,7 @@ Each text element is identified by an **ID** (`%id%`), making it possible to mod
 
 - `%id%` _(string, required)_: Unique identifier for the text element.
 - `<action>` _(string, required)_: The operation to perform on the text element.
+- `--no-remove` _(argument, optional)_: Don't remove the text from ink tags running after the text faded out. (Useful to re-use the text id later)
 
 ### Actions
 
@@ -55,6 +56,14 @@ Changes the text color.
 
 Example:  
 `text inside_head color e81a1a`
+
+### `opacity`
+Changes the text opacity.  
+**Syntax:**  
+`text %id% opacity %value%`
+
+Example:  
+`text notification opacity 0.6`
 
 ### `scale`
 Sets the text scale.  
